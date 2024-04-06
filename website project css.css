@@ -1,0 +1,124 @@
+ body {
+  font-family: Rockwell;
+            margin: 0;
+            padding: 0;
+background-image: url('Images/E.Rugby photo.JPG');
+    background-size: auto; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    min-height: 200vh; /* Ensure the body takes up at least the full viewport height */
+   display: flex;
+    flex-direction: column;
+
+}
+
+
+
+header {
+    background-color: #C6E2E9;
+    color: #fff;
+    padding: 10px;
+
+}
+
+header text{
+color: black
+
+}
+
+.title-and-search {
+    display: flex;
+    align-items: center;
+  font-size: 40px;
+
+}
+
+.title-and-search text {
+    margin-right: 20px; /* Adjust as needed */
+
+}
+
+.title-and-search form {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+/* Search bar input field */
+.title-and-search input[type="text"] {
+    padding: 8px;
+    border: 10x solid #000000
+    border-radius: 5x
+    font-size: 16px;
+    width: 500px; /* Adjust width as needed */
+    height: 40px;
+    border-radius: 30px;/* Increase border-radius to make corners more round */
+    padding-left: 20px; /* Adjust padding-left to move where the typed text starts */
+
+
+}
+
+nav {
+            background-color: #A7BED3;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+ 	    font-size: 22px;
+            margin: 10px;
+
+
+        }
+        nav a:hover {
+            background-color: #666;
+    border-radius: 30px;/* Increase border-radius to make corners more round */
+
+      }
+
+
+
+
+.welcome-page{
+            padding: 5px 10px;
+
+
+}
+
+
+.footer {
+    margin-top: auto;
+    background-color: #A7BED3;
+    padding: 20px 0;
+    color: #A7BED3;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+
+
+}
+
+/* footer text*/
+.footer p {
+    color: #000000	;
+    opacity: 1; /* Set text opacity to 1 (fully opaque) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
