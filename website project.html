@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Un Named Project</title>
+    <title>Kofi Barton-Byfield</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="website_java.js"></script>
     <script src="website project java.js"></script>
     <link rel="stylesheet" href="website project css.css"> <!-- Link to external CSS file -->
+
 
 </head>
 
@@ -33,11 +33,45 @@
     <a href="#">Other</a>
 </nav>
 
+
 <div class="welcome-page">
 
     <text id="pageTitle"> Welcome </text>
 
 </div>
+
+ 
+
+
+
+
+
+<div id="todo-container">
+    <div id="header">
+      <h1>To Do List</h1>
+    </div>
+    <div id="todo-form">
+      <input
+        type="text"
+        class="input-item"
+        name="input_box"
+        id="input-box"
+        placeholder="Add Task"
+      />
+      <button id="input-button" onclick="addTask()">Add</button>
+    </div>
+    <h2>Task List</h2>
+    <ul id="list-container"></ul>
+    <div class="counter-container">
+      <div id="task-counters">
+        Completed: <span id="completed-counter">0</span> | Uncompleted:
+        <span id="uncompleted-counter">0</span>
+      </div>
+    </div>
+  </div>
+
+
+
 
 
 
@@ -48,8 +82,6 @@
         <p>© 2024 Online Shop. All rights reserved.</p>
         <p>Email: MyCompany@email.com | Phone: 00000000000</p>
 </div>
-
-
 
 
 </body>
